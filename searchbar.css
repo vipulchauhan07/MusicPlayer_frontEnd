@@ -1,0 +1,38 @@
+
+
+.nav-icons i {
+    font-size: 20px;
+    color:red;
+    
+  }
+  .searchBar input[type="text"]{
+    background-image: linear-gradient(to bottom, #121e3d 0%, #000 100%);
+    margin: none;
+    border: none;
+    position: absolute;
+    width: 15rem;
+    top: 10px;
+    right: 240px;
+    color: white;
+    height: 30px;
+    padding: 5px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  .searchBar input[type="text"]:focus{
+    width: 50%;
+  }
+  
+  #search {
+    position: absolute;
+    top: 1px;
+    right: 463px;
+    border: #3e8e41;
+  }
+  #record {
+    position: absolute;
+    right: 250px;
+    top: 1px;
+  }
+  
